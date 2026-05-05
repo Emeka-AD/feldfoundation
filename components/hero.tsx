@@ -10,10 +10,10 @@ export function Hero() {
       {/* Background overlay with image */}
       <div className="absolute inset-0 overflow-hidden">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ggg-w19QqzlqdCUj0ES7zoND2zHNfuDfXC.jpg"
-          alt="FELD Foundation outreach event"
+          src="/images/hero-empowerment.jpg"
+          alt="Empowered African women and youth in Nigeria"
           fill
-          className="object-cover opacity-20"
+          className="object-cover opacity-30"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/70 to-primary" />
