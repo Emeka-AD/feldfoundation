@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MapPin, Phone, Mail, Send } from "lucide-react";
+import { MapPin, Phone, Mail, Send, Building2 } from "lucide-react";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -75,6 +75,30 @@ export function Contact() {
                   <p className="text-muted-foreground mt-1">
                     info@feldfoundation.org
                   </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Donation Account */}
+            <div className="mt-10 p-6 bg-card rounded-xl border border-border">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
+                  <Building2 className="w-5 h-5 text-primary-foreground" />
+                </div>
+                <p className="font-semibold text-foreground">Donation Account</p>
+              </div>
+              <div className="space-y-3 text-sm">
+                <div className="flex justify-between items-center py-2 border-b border-border">
+                  <span className="text-muted-foreground">Bank Name</span>
+                  <span className="font-medium text-foreground">First Bank of Nigeria</span>
+                </div>
+                <div className="flex justify-between items-center py-2 border-b border-border">
+                  <span className="text-muted-foreground">Account Name</span>
+                  <span className="font-medium text-foreground">FELD Foundation</span>
+                </div>
+                <div className="flex justify-between items-center py-2">
+                  <span className="text-muted-foreground">Account Number</span>
+                  <span className="font-medium text-foreground">XXXXXXXXXX</span>
                 </div>
               </div>
             </div>
