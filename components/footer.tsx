@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-primary">
       {/* Donation CTA Section */}
-      <section id="donate" className="py-20 border-b border-primary-foreground/10">
+      <section id="donate" className="py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-primary-foreground/10 to-transparent rounded-3xl p-8 md:p-12 lg:p-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -182,7 +182,7 @@ export function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="border-t border-primary-foreground/10 py-8">
+      <div className="py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-primary-foreground/60 text-sm">
