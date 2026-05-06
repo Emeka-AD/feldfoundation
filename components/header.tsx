@@ -21,22 +21,14 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/473247288_122098471394729136_1681226722598966194_n-yvTsd5qGYWMIXh2R31BkKewOOafKlI.jpg"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FELD_logo_transparent-zf8s7UzhdAcX13kasF4ra2gEmUfi7S.png"
               alt="FELD Foundation Logo"
-              width={60}
-              height={60}
-              className="rounded"
+              width={120}
+              height={80}
+              className="h-16 w-auto"
             />
-            <div className="hidden sm:block">
-              <p className="text-lg font-bold text-primary-foreground tracking-wide">
-                FELD
-              </p>
-              <p className="text-xs text-primary-foreground/80">
-                Foundation for Effective Leadership & Development
-              </p>
-            </div>
           </Link>
 
           {/* Desktop Navigation */}
